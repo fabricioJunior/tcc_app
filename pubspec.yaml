@@ -1,0 +1,44 @@
+name: tcc_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.0.0
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.9.0
+  cloud_firestore: ^4.5.1
+  equatable: any
+  json_annotation: any
+  build_runner: ^2.3.3
+  mockito: ^5.4.0
+  bloc_test: ^9.1.1
+  url_launcher: ^6.1.11
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.6.2
+
+
+flutter:
+ 
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+
+  
